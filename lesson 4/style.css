@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto", serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+.weather {
+    background-color: rgba(160, 160, 160, 0.844);
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/bg-weather.png);
+    background-size: contain;
+}
+.weather-content {
+    background-color: rgba(0, 128, 0, 0.307);
+    width: 300px;
+    border: 1px solid black;
+    height: 100vh;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    * {
+        color: white;
+    }
+    h3 {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+}
+
+.weather-city {
+    /* background-color: red; */
+    padding-left: 116px;
+    padding-bottom: 85px;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    * {
+        color: white;
+    }
+    h1 {
+        font-size: 143px;
+        margin-bottom: -33px;
+        font-weight: 400px;
+    }
+    h3 {
+        font-size: 63px;
+        margin-bottom: 10px;
+    }
+}
+
+.input-Search {
+    display: flex;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: gray;
+        &::placeholder {
+            color: gray;
+        }
+    }
+}
+
+.info {
+    padding-bottom: 50px;
+    border-bottom: 1px solid red;
+    div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        p {}
+    }
+}
